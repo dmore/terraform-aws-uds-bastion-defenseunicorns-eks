@@ -35,8 +35,8 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v4
 
-      - name: Initialize Pipeline
-        uses: ./.github/actions/init-pipeline
+ #     - name: Initialize Pipeline
+ #       uses: ./.github/actions/init-pipeline
 
   #    - name: Configure AWS Credentials
   #      uses: aws-actions/configure-aws-credentials@v4
